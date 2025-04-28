@@ -1,5 +1,7 @@
 package com.LinkedInProject.postsService.exception;
 
-public class BadRequestException extends {
-
+public class BadRequestException extends RuntimeException{
+    public BadRequestException(String message) {
+        super(message);
+    }
 }
